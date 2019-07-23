@@ -23,7 +23,7 @@ def pretvori_iz_prve_v_drugo():
         return bottle.template("pretvori.tpl",rezultat="",napaka="Vnesi vrednost")
 
     try:
-        vrednost=int(vrednost)
+        vrednost=float(vrednost)
         pretvornik=model.Pretvornik(izValute,vrednost,vValuto)
         rezultat=pretvornik.pretvori_iz_prve_v_drugo()
         pretvornik.zapisi_pretvorbo_v_datoteko()
