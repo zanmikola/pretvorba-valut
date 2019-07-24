@@ -4,7 +4,8 @@
 
   <h1>Pretvornik</h1>
 
-  <blockquote>
+
     Pretvornik so najboljše orodje za prprave na potovanje.
 
-    <a href="/pretvornik">Začni pretvarjat</button>
+    <p> <a href="/pretvornik">Začni pretvarjat</button>
+    <p> <a href="/bit">Prikaži trenutno vrednost Bitcoina</button>

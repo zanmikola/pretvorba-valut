@@ -6,7 +6,7 @@
 <body>
     <div class="container" style="    margin: 0 auto;
     text-align: center;
-    background: red;">
+    background: blue;">
         {{!base}}
     </div>
 </body>

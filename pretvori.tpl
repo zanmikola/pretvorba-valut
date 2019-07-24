@@ -2,11 +2,11 @@
 % rebase ('base.tpl', title='Pretvornik')
 
 
-  <h1>Pretvornik</h1>
+  <h1>Pretvornik valut</h1>
 
 <form action="/pretvori" method="POST">
 
-Vrednost: <input type="text" name="vrednost"/>
+<input type="number" step="any" name="vrednost"/>
 <select name="valuta1">
 <option value="EUR">EUR</option>
 <option value="AUD">AUD</option>
@@ -14,7 +14,7 @@ Vrednost: <input type="text" name="vrednost"/>
 <option value="CAD">CAD</option>
 <option value="CHF">CHF</option>
 <option value="CNY">CNY</option>
-</select>
+</select> v
 
 <select name="valuta2">
 <option value="EUR">EUR</option>
@@ -26,7 +26,7 @@ Vrednost: <input type="text" name="vrednost"/>
 
 </select>
 
-<button type="submit">Ok</button>
+<button type="submit">pretvori</button>
  
 </form>
 <p>
@@ -40,3 +40,8 @@ Vrednost: <input type="text" name="vrednost"/>
 <span>{{napaka}}</span>
 %end
 </p>
+
+<p id="date"></p>
+<script>
+document.getElementById("date").innerHTML = Date();
+</script>
