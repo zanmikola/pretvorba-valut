@@ -1,15 +1,11 @@
 import json
 import datetime
+import requests
 NAPAKA = "Valuta ne obstaja"
 PRETVORBE_DATOTEKA="pretvorbe.json"
-slovar = {}
-with open("valute.txt") as f:
-            vrstice = f.readlines()
-            for vrstica in vrstice:
-                line = vrstica.split(" ")
-                slovar[line[0]] = line[1].strip("\n")
-            print(slovar)
-
+slovar = requests.get('https://api.exchangeratesapi.io/latest').json().get("rates")
+slovar["EUR"] = 1
+print(slovar.keys())
 class Pretvornik_valut():
     def __init__(self, valuta=None, kolicina=1, druga_valuta=None):
         self.valuta = valuta
@@ -40,13 +36,12 @@ class Pretvornik_valut():
             pretvorbe = json.load(f)
         return pretvorbe
     def zapisi_pretvorbo_v_datoteko(self):
-        print(self.nalozi_pretvorbe_iz_datoteke())
         shranjenePretvorbe=self.nalozi_pretvorbe_iz_datoteke()
         with open("pretvorbe.json", 'w', encoding='utf-8') as f:
             datum=datetime.datetime.now()
             shranjenePretvorbe.append({"datum":str(datum),"izValute":self.valuta,"vValuto":self.druga_valuta,"vrednost":self.kolicina})
             json.dump(shranjenePretvorbe, f)
-        return
+        
 
 
 

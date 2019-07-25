@@ -1,8 +1,33 @@
-AUD 1.58987
-CAD 1.46934
-CHF 1.09841
-CNY 7.68527
-GBP 0.897429
-JPY 120.799
-USD 1.11715
-EUR 1
+Evropska unija evro EUR,
+Združene države Ameriški dolar USD,
+Japonski jen JPY,
+Bolgarija Bolgarski lev BGN,
+Češka republika Češka krona CZK,
+Danska krona DKK,
+Združeno kraljestvo Britanski funt GBP,
+Madžarska Madžarski forint HUF,
+Poljska Poljski zlot PLN,
+Romunija Romunski lev RON,
+Švedska Švedska krona SEK,
+Švica Švicarski frank CHF,
+Islandija Islandska krona ISK,
+Norveška Norveška krona NOK,
+Hrvaška Hrvaška kuna HRK,
+Ruska federacija Ruski rubelj RUB,
+Turčija Turška lira TRY,
+Avstralija Avstralski dolar AUD,
+Brazilija Brazilski real BRL,
+Kanada Kanadski dolar CAD,
+Kitajska Kitajski juan renminbi CNY,
+Hongkong Hongkonški dolar HKD,
+Indonezija Indonezijska rupija IDR,
+Izrael Novi izraelski šekel ILS,
+Indija Indijska rupija INR,
+Koreja Republika Južnokorejski won KRW,
+Mehika Mehiški peso MXN,
+Malezija Malezijski ringgit MYR,
+Nova Zelandija Novozelandski dolar NZD,
+Filipini Filipinski peso PHP,
+Singapur Singapurski dolar SGD,
+Tajska Tajski baht THB,
+Južna Afrika Južnoafriški rand ZAR,

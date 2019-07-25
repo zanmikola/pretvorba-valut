@@ -1,4 +1,5 @@
-% import model
+% import model_staticni
+% import bitcoin
 % rebase ('base.tpl', title='Pretvornik')
 
 
