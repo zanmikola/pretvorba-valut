@@ -85,6 +85,8 @@
 <button type="submit">pretvori</button>
  
 </form>
+
+
 <p>
 %if rezultat:
 <span>{{rezultat}}</span>
