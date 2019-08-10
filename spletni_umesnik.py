@@ -13,7 +13,7 @@ def index():
 
 @bottle.get('/pretvornik')
 def pretvornik():
-    return bottle.template('pretvori.tpl',rezultat="",napaka="")
+    return bottle.template('pretvori.tpl', rezultat = "", napaka = "")
 
 @route('/pretvori',method="POST")
 def pretvori_iz_prve_v_drugo():

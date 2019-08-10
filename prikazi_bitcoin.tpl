@@ -1,4 +1,3 @@
-% import model
 % import bitcoin
 % rebase ('base.tpl', title='Pretvornik')
 
